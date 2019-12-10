@@ -5,11 +5,14 @@ import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Unit from '../src/Unit';
 import {Button} from 'react-bootstrap';
+import Companies from '../src/Companies'
 
 function App() {
+
   return (
     <Switch> 
       <Route exact path="/"> 
+      <Companies></Companies>
       <Unit 
         color="Green" 
         header="CityTime" 
